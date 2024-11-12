@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // or es2020, es2022, depending on your target
+    "module": "esnext", // or es2020, es2022, etc.
+    "moduleResolution": "node", // To enable node-style resolution
+    "jsx": "react-jsx", // For React projects
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*" // Make sure to include all TypeScript files in your source
+  ]
+}
